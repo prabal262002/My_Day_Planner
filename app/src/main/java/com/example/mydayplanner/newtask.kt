@@ -35,7 +35,7 @@ class newtask : BottomSheetDialogFragment() {
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
-    ): View {// !! You have made this non nullable type ok
+    ): View {// !! You have made this non nullable type
         binding = FragmentNewtaskBinding.inflate(inflater,container,false)
         return binding.root
     }
